@@ -43,3 +43,8 @@ and `org.keycloak.services.resource.RealmResourceProviderFactory` to implement t
 3. Go to **Authentication** menu and configure authentication flow to use WWPass Identity provider.
    As WWPass does not provide trusted email or any other user information you may want to set up
    an action like `Verify Existing Account by Email` in the flow after WWPass Identity provider.
+
+## Further setup
+
+You can find the detailed instructions on the furhter configuration of Keycloak with WWPass in the documentation
+[here](https://docs.wwpass.com/docs/keycloak/).
