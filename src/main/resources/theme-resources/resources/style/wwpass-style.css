@@ -138,8 +138,8 @@ html {
     width: 100%;
     height: 1px;
     background-color: #dddddd;
-    -webkit-margin-after: 15px;
-            margin-block-end: 15px;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
   }
 
   .hr--shadow {
@@ -331,4 +331,9 @@ html {
   .qrtap {
     max-width: 280px;
     margin: auto;
+  }
+
+  /* center button for hardware key */
+  #passkey {
+    display: flex;
   }
